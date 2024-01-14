@@ -12,4 +12,12 @@ public class GiftEntity {
     public String getId() {
         return id;
     }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
 }
